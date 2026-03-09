@@ -62,11 +62,6 @@ Test your webpage in a browser.
 
 ## PROGRAM:
 ```
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Product Card</title>
-
 <style>
 
 body{
