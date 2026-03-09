@@ -1,6 +1,6 @@
 # Product Card Design with Hover Effect using CSS
 ## Date:
-
+09/03/2026
 ## AIM:
 To design a Product Card for an E-commerce website using HTML and CSS and apply hover effects, transitions, and styling techniques to create an interactive user interface.
 
@@ -61,8 +61,125 @@ Style the footer using background color and center alignment.
 Test your webpage in a browser.
 
 ## PROGRAM:
+```
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Product Card</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f5f5f5;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+.container{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.product-card{
+    width:300px;
+    background:white;
+    border-radius:15px;
+    text-align:center;
+    padding:20px;
+    box-shadow:0 6px 12px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.product-card img{
+    width:100%;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.product-card h2{
+    margin:15px 0 10px;
+}
+
+.product-card p{
+    font-size:14px;
+    color:#555;
+}
+
+.price{
+    font-size:20px;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    background:#007BFF;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 25px rgba(0,0,0,0.3);
+}
+
+.product-card:hover img{
+    transform:scale(1.1);
+}
+
+.product-card:hover button{
+    background:#ff4d4d;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" alt="Wireless Headphones">
+
+<h2>Wireless Headphones</h2>
+
+<p>Premium noise-cancelling wireless headphones with long battery life.</p>
+
+<div class="price">₹2999</div>
+
+<button>Add to Cart</button>
+
+</div>
+
+</div>
+
+<footer>
+Learner Name: G SHAWN RONEL <br>
+Register Number: 25005544
+</footer>
+
+</body>
+</html>
+```
 
 ## OUTPUT:
+<img width="1916" height="1068" alt="image" src="https://github.com/user-attachments/assets/44a812a3-d3c8-49c2-8a40-47acb0971db8" />
 
 ## RESULT:
 The Product Card with Hover Effect was successfully designed using HTML and CSS.
